@@ -1,0 +1,6 @@
+Primary_Category,Definition,QID_Count,Percentage_of_44,QIDs
+Structural zero-candidate failure,No RALSR candidate passages exist.,2,0.045454545454545456,536;613
+Candidate-generation failure,"Candidates exist, but no gold relevant passage occurs anywhere in the candidate set.",6,0.13636363636363635,500;510;525;544;555;602
+Candidate present but ranking failure,"A gold relevant passage occurs in the candidate set, but none is ranked in the Top 10.",21,0.4772727272727273,505;508;513;521;527;529;539;540;541;542;545;558;560;561;562;563;568;571;576;577;611
+Partial retrieval success,At least one gold relevant passage occurs in the Top 10 and per-query AP@10 is positive but below 1.0.,15,0.3409090909090909,502;518;519;528;531;533;534;550;552;557;559;570;575;580;610
+Strong retrieval success,Per-query AP@10 equals 1.0 exactly under the frozen official metric.,0,0.0,

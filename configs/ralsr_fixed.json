@@ -1,0 +1,23 @@
+{
+  "role": "primary proposed linguistic system",
+  "features_in_order": [
+    "Root_Coverage",
+    "Root_Overlap",
+    "Semantic_Overlap",
+    "Jaccard_Root_Similarity",
+    "Passage_Root_Count",
+    "Semantic_Count"
+  ],
+  "weights": [
+    0.3,
+    0.25,
+    0.2,
+    0.15,
+    0.05,
+    0.05
+  ],
+  "normalization": "Min-Max parameters fitted on training candidate pairs only and frozen for dev/test; no clipping",
+  "tie_break": "RALSR score descending, then Passage_ID ascending",
+  "no_answer": "Emit sole Passage_ID=-1, rank=1, score=0.0 only when candidate_count==0",
+  "post_test_tuning": false
+}

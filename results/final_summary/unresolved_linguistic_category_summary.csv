@@ -1,0 +1,14 @@
+Population,Linguistic_Category,Record_Count,Unique_Normalized_Forms,Percent_Within_Population,High_Confidence,Medium_Confidence,Low_Confidence,Representative_Forms
+Root_Unresolved,Arabic lexical content word,202,149,61.4,202,0,0,الانسان | معني | الايات | النساء | الانبياء
+Root_Unresolved,Proper name / named entity,42,22,12.8,42,0,0,موسي | نوح | يوسف | عيسي | ابراهيم
+Root_Unresolved,Function / grammatical expression,39,19,11.9,39,0,0,هناك | بانه | فيها | فلماذا | بان
+Root_Unresolved,Honorific / title expression,22,2,6.7,22,0,0,سيدنا | لسيدنا
+Root_Unresolved,Modern / foreign / institutional vocabulary,12,8,3.6,12,0,0,الدكتاتورية | سيداو | ايجابي | كروية | الصهيوني
+Root_Unresolved,Arabic lexical item with unavailable/ambiguous analysis,7,7,2.1,0,7,0,المطففون | كتبرج | ولعنه | واسترقاقهن | قانتين
+Root_Unresolved,Abbreviation / non-lexical token,5,1,1.5,5,0,0,ص
+Root_Resolved_Maqayis_Unmatched,Possible doubled-root representation mismatch,144,82,49.8,0,144,0,عليه | الدلائل | المراة | نرد | اهل
+Root_Resolved_Maqayis_Unmatched,Proper-name / special lexical form,55,8,19.0,50,5,0,الله | له | لله | ادم | الجاثية
+Root_Resolved_Maqayis_Unmatched,Possible weak/hamza representation mismatch,54,30,18.7,0,54,0,النبي | المؤمنين | الدنيا | الارض | صلي
+Root_Resolved_Maqayis_Unmatched,Noncanonical short root key,25,12,8.7,25,0,0,به | اية | بما | كما | الاولي
+Root_Resolved_Maqayis_Unmatched,Valid root absent from exact digital lookup — cause undetermined,8,6,2.8,8,0,0,السيدة | فقط | نهاية | منه | حذف
+Root_Resolved_Maqayis_Unmatched,Extended/four-letter root key absent,3,3,1.0,3,0,0,الهدهد | مصارف | الحميدة

@@ -1,0 +1,6 @@
+Population,Technical_Category,Record_Count,Unique_Normalized_Forms,Percent_Within_Population
+Root_Resolved_Maqayis_Unmatched,Exact digital Maqāyīs lookup miss,289,141,100.0
+Root_Unresolved,Incomplete placeholder root (#),282,177,85.7
+Root_Unresolved,Sentinel root,34,18,10.3
+Root_Unresolved,No CAMeL analysis,9,9,2.7
+Root_Unresolved,Ambiguous top CAMeL root,4,4,1.2

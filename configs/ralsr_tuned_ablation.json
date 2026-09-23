@@ -1,0 +1,22 @@
+{
+  "role": "diagnostic ablation",
+  "configuration_id": "G01079",
+  "features_in_order": [
+    "Root_Coverage",
+    "Root_Overlap",
+    "Semantic_Overlap",
+    "Jaccard_Root_Similarity",
+    "Passage_Root_Count",
+    "Semantic_Count"
+  ],
+  "weights": [
+    0.0,
+    0.0,
+    0.25,
+    0.55,
+    0.1,
+    0.1
+  ],
+  "selection": "53,130-combination simplex grid on train MAP@10, train MRR@10 tie-break; dev checked once",
+  "test_used_for_selection": false
+}

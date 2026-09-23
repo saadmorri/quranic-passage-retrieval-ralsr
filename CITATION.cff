@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or reproducibility package, please cite it using the metadata below."
+type: software
+title: "Evaluating Root-Aware Lexical-Semantic Retrieval for Qur'anic Passages Using the Qur'anic Arabic Corpus and Maqāyīs al-Lughah"
+authors:
+  - family-names: "Abu Morri"
+    given-names: "Saad Moh'd Saad"
+repository-code: "https://github.com/saadmorri/quranic-passage-retrieval-ralsr"
+abstract: "Source code and reproducibility materials supporting a Master's thesis on root-aware lexical-semantic Qur'anic passage retrieval."
+keywords:
+  - information retrieval
+  - QuranQA
+  - Arabic morphology
+  - lexical semantics
+  - Maqayis al-Lughah
+  - RALSR
