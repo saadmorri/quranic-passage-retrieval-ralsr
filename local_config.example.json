@@ -1,0 +1,23 @@
+{
+  "question_train": "PATH/TO/QQA23_TaskA_ayatec_v1.2_train.tsv",
+  "question_dev": "PATH/TO/QQA23_TaskA_ayatec_v1.2_dev.tsv",
+  "question_test": "PATH/TO/QQA23_TaskA_ayatec_v1.2_test.tsv",
+  "qpc_tsv": "PATH/TO/QQA23_TaskA_QPC_v1.1.tsv",
+  "processed_qpc_csv": "PATH/TO/QuranQA_Processed_Passage_Collection.csv",
+  "passage_representation_csv": "PATH/TO/QuranQA_Enriched_Passage_Representation.csv",
+  "qac_word_lookup_csv": "PATH/TO/QAC_Word_Lookup.csv",
+  "maqayis_db": "PATH/TO/db.sqlite",
+  "normalization_csv": "PATH/TO/RALSR_Train_Only_Normalization_Parameters.csv",
+  "fixed_ralsr_full_csv": "PATH/TO/RALSR_Top100_Split_Safe_With_No_Answer.csv",
+  "crossencoder_full_csv": "PATH/TO/RALSR_CrossEncoder_Top100_With_No_Answer.csv",
+  "e5_model_dir": "PATH/TO/multilingual-e5-base",
+  "crossencoder_model_dir": "PATH/TO/mmarco-mMiniLMv2-L12-H384-v1",
+  "camel_tools_data": "PATH/TO/camel_tools_data",
+  "runtime_dir": "PATH/TO/LOCAL/DEMO/CACHE",
+  "runs": {
+    "bm25": {"train": "PATH/TO/thesis_BM25tr.tsv", "dev": "PATH/TO/thesis_BM25dv.tsv", "test": "PATH/TO/thesis_BM25te.tsv"},
+    "dense": {"train": "PATH/TO/thesis_E5tr.tsv", "dev": "PATH/TO/thesis_E5dv.tsv", "test": "PATH/TO/thesis_E5te.tsv"},
+    "ralsr": {"train": "PATH/TO/thesis_RALSRtr.tsv", "dev": "PATH/TO/thesis_RALSRdv.tsv", "test": "PATH/TO/thesis_RALSRte.tsv"},
+    "ralsr_ce": {"train": "PATH/TO/thesis_RALSRCEtr.tsv", "dev": "PATH/TO/thesis_RALSRCEdv.tsv", "test": "PATH/TO/thesis_RALSRCEte.tsv"}
+  }
+}

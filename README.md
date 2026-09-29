@@ -52,6 +52,17 @@ The fixed weights were specified a priori. The tuned condition is a separate tra
 - [`docs/DATA_AND_MODELS.md`](docs/DATA_AND_MODELS.md) — external resource acquisition and exclusions.
 - [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) — environment and execution order.
 
+## Interactive demonstration
+
+The [`demo/`](demo/) application provides a defense-oriented Arabic Qur’anic passage-retrieval interface with two clearly separated modes:
+
+- **QuranQA Benchmark Demonstration** reads the same frozen rankings evaluated in the thesis.
+- **Free Arabic Question** runs BM25, Dense E5, fixed RALSR, or zero-shot CrossEncoder reranking over the fixed-RALSR candidates.
+
+The full application is designed for local use because its required QuranQA/QPC, QAC, Maqāyīs, passage-representation, model, and frozen-run resources are deliberately not redistributed in this repository. Copy [`local_config.example.json`](local_config.example.json) to the untracked `local_config.json`, supply authorized local paths, install [`demo/requirements.txt`](demo/requirements.txt), and launch [`run_demo.bat`](run_demo.bat) on Windows. See [`docs/INTERACTIVE_DEMO.md`](docs/INTERACTIVE_DEMO.md) for configuration and scientific-boundary details.
+
+> Benchmark results shown in the thesis are frozen experimental results. Free-query retrieval is an interactive demonstration and is not included in the thesis evaluation metrics.
+
 ## Installation
 
 ```bash

@@ -50,3 +50,11 @@ desktop.ini
 .idea/
 .vscode/
 *.swp
+
+# Local Streamlit defense demo
+local_config.json
+demo/runtime/
+runtime/
+.demo_env/
+backend_stdout.log
+backend_stderr.log
